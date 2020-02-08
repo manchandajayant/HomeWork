@@ -1,6 +1,4 @@
-function groupAdultsByAgeRange([{ name, age }]) {
-  const filt = age.map(un => un.age > 18);
-  return filt;
-}
+const grouping = groupAdultsByAgeRange([]) {
 
+};
 module.exports = { groupAdultsByAgeRange };
