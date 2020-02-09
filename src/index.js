@@ -1,10 +1,8 @@
 console.log("Holla amigo");
 function lukeSkywalker() {
-  fetch("https://swapi.co/api/people/1") // make the request
-    .then(response => response.json()) // convert response to json
+  fetch("https://swapi.co/api/people/1")
+    .then(response => response.json())
     .then(myJson => {
-      // display data in the browser
-
       document.getElementById("luke").innerHTML = JSON.stringify(
         myJson,
         null,
