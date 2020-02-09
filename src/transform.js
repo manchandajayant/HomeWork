@@ -1,10 +1,10 @@
 function groupAdultsByAgeRange(arr) {
   const result = {
-    "20 and younger": [{}],
-    "21-30": [{}],
-    "31-40": [{}],
-    "41-50": [{}],
-    "51 and older": [{}]
+    "20 and younger": [],
+    "21-30": [],
+    "31-40": [],
+    "41-50": [],
+    "51 and older": []
   };
   arr.forEach(person => {
     if (person.age > 17 && person.age < 21)
