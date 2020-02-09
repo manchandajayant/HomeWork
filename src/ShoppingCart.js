@@ -43,6 +43,7 @@ cart.addItem("item 2", 2, 3);
 cart.addItem("item 3", 10, 2);
 cart.addItem("item 4", 0, 2);
 cart.addItem("item 5", 2, 0);
+cart.addItem("item 6", 2, 100);
 console.log(cart.getItems());
 cart.total();
 console.log(cart.total());

@@ -1,4 +1,2 @@
-const grouping = groupAdultsByAgeRange([]) {
-
-};
+function groupAdultsByAgeRange() {}
 module.exports = { groupAdultsByAgeRange };
