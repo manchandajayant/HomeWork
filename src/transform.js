@@ -1,2 +1,4 @@
-function groupAdultsByAgeRange() {}
+function groupAdultsByAgeRange() {
+  return {};
+}
 module.exports = { groupAdultsByAgeRange };
